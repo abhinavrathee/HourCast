@@ -35,18 +35,20 @@
 
 ## 📂 Project Structure
 
-```plaintext
+```
+HourCast/
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-├── dist
+├── WEATHER_API_SETUP.md
+├── dist/
 │   └── output.css
 ├── package-lock.json
 ├── package.json
 ├── postcss.config.js
-├── public
-│   ├── favicon_io
+├── public/
+│   ├── favicon_io/
 │   │   ├── android-chrome-192x192.png
 │   │   ├── android-chrome-512x512.png
 │   │   ├── apple-touch-icon.png
@@ -54,14 +56,17 @@
 │   │   ├── favicon-32x32.png
 │   │   ├── favicon.ico
 │   │   └── site.webmanifest
+│   ├── home_image.png
 │   └── index.html
-├── src
+├── src/
 │   ├── App.js
-│   ├── components
+│   ├── components/
 │   │   └── DigitalClock.js
 │   ├── index.css
-│   └── index.js
-└── tailwind.config.js
+│   ├── index.js
+│   └── weather-animations.css
+├── tailwind.config.js
+└── thumbnail.png
 ```
 
 ## 🚀 Getting Started
