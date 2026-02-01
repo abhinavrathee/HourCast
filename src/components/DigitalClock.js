@@ -344,7 +344,7 @@ const Hourcast = () => {
 
         {/* Main Time Display */}
         <div className="mb-1 sm:mb-2 animate-slide-up">
-          <div className="flex items-baseline justify-center gap-0.5 sm:gap-1">
+          <div className="flex items-baseline justify-center gap-0.5 sm:gap-1 tabular-nums">
             <span className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-silver font-ultra-thin tracking-tighter leading-none">
               {hours}
             </span>
